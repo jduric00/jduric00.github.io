@@ -1,12 +1,202 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jovana's First Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jovana Duric — Architecture & Design</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-Hello, world! I am Jovana Duric. I am learning how to create websites.    
+
+<header>
+  <div class="container bar">
+    <div class="brand">Jovana Duric</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Works</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="pill" href="https://app.joinhandshake.com/profiles/5s6gmp" target="_blank" rel="noopener">Handshake</a>
+      <a class="pill" href="#contact">Book a chat</a>
+    </nav>
+  </div>
+</header>
+<section id="home" class="hero-card container">
+  <div class="hero-copy">
+    <h2 class="hero-kicker">Architecture & Design</h2>
+    <p class="hero-sub">Portfolio highlights: Fossil Haven Wellness Spa, Hammerstrom Residence, and more.</p>
+    <p><a class="btn" href="#projects">View projects</a></p>
+  </div>
+</section>
+<div class="container content-wrap">
+  <div class="content-main">
+    <section id="projects" class="panel panel-small">
+      <h2 class="section-title">Projects — Overview</h2>
+      <table class="compact">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Deliverables</th>
+            <th>Assets</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fossil Haven Wellness Spa</td>
+            <td>Model photo; axon sketch</td>
+            <td>
+              <a href="assets/images/fossil-haven-1.jpg">Fossil Haven Photo</a> ·
+              <a href="assets/images/fossil-haven-axon.jpg">Fossil Haven Axon</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Hammerstrom Residence — Addition & Remodel</td>
+            <td>Floor plan; elevations</td>
+            <td>
+              <a href="assets/images/hammerstrom-elevations.jpg">Hammerstrom Elevations</a> ·
+              <a href="assets/images/hammerstrom-floorplan.jpg">Hammerstrom Floor Plan</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Two-Story House — SketchUp Model</td>
+            <td>Interior shots / renders</td>
+            <td><a href="assets/images/two-story-house.jpg">View Render</a></td>
+          </tr>
+          <tr>
+            <td>Moodboards</td>
+            <td>BLOOM, Guest, Kitchen, Master, Powder</td>
+            <td><a href="#moodboards">View Gallery</a></td>
+          </tr>
+          <tr>
+            <td>Business Cards — Company & Bakery</td>
+            <td>Two card comps</td>
+            <td>
+              <a href="assets/images/biz-card-company.jpg">Company Card</a> ·
+              <a href="assets/images/biz-card-bakery.jpg">Bakery Card</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="works">
+      <h2 class="section-title">Selected Works</h2>
+
+      <div class="grid">
+        <article class="card big">
+          <img src="assets/images/fossil-haven-1.jpg" alt="Fossil Haven">
+          <div class="pad">
+            <h3>Fossil Haven Wellness Spa</h3>
+            <p>Model photo & axon.</p>
+          </div>
+        </article>
+
+        <article class="card big">
+          <figure class="media">
+            <img src="assets/images/hammerstrom-elevations.jpg" alt="Hammerstrom Elevations">
+            <figcaption>Hammerstrom Elevations</figcaption>
+          </figure>
+          <div class="pad">
+            <h3>Hammerstrom Residence — Addition & Remodel</h3>
+            <p>Elevations and a refined floor plan for a Scottsdale remodel.</p>
+          </div>
+        </article>
+
+        <article class="card big">
+          <img src="assets/images/two-story-house.jpg" alt="Two-Story House">
+          <div class="pad">
+            <h3>Two-Story House (SketchUp)</h3>
+            <p>Interior shots.</p>
+          </div>
+        </article>
+
+        <article class="card big">
+          <img src="assets/images/moodboards/bloom-moodboard.jpg" alt="BLOOM skincare moodboard">
+          <div class="pad">
+            <h3>Moodboards</h3>
+            <p>Five boards (BLOOM, Guest, Kitchen, Master, Powder).</p>
+          </div>
+        </article>
+
+        <article class="card big">
+          <img src="assets/images/biz-card-company.jpg" alt="Business Cards">
+          <div class="pad">
+            <h3>Business Cards — Company & Bakery</h3>
+            <p>Two brand directions.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="moodboards" class="panel">
+      <h2 class="section-title">Moodboards</h2>
+      <div class="gallery">
+        <a href="assets/images/moodboards/bloom-moodboard.jpg" title="BLOOM Skincare">
+          <img src="assets/images/moodboards/bloom-moodboard.jpg" alt="Moodboard: BLOOM Skincare">
+        </a>
+        <a href="assets/images/moodboards/guest-suite-moodboard.jpg" title="Guest Suite">
+          <img src="assets/images/moodboards/guest-suite-moodboard.jpg" alt="Moodboard: Guest Suite">
+        </a>
+        <a href="assets/images/moodboards/kitchen-moodboard.jpg" title="Kitchen">
+          <img src="assets/images/moodboards/kitchen-moodboard.jpg" alt="Moodboard: Kitchen">
+        </a>
+        <a href="assets/images/moodboards/master-bedroom-moodboard.jpg" title="Master Bedroom">
+          <img src="assets/images/moodboards/master-bedroom-moodboard.jpg" alt="Moodboard: Master Bedroom">
+        </a>
+        <a href="assets/images/moodboards/powder-room-moodboard.jpg" title="Powder Room">
+          <img src="assets/images/moodboards/powder-room-moodboard.jpg" alt="Moodboard: Powder Room">
+        </a>
+      </div>
+    </section>
+
+  </div>
+
+  <aside class="sidebar">
+    <section id="about" class="panel">
+      <h2 class="section-title">About</h2>
+      <p>
+        Architecture student exploring simple forms, daylight, and landscape.
+        External link:
+        <a href="https://app.joinhandshake.com/profiles/5s6gmp" target="_blank" rel="noopener">Handshake</a>.
+      </p>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2 class="section-title">Contact</h2>
+      <form action="#" method="post">
+        <p><label for="name">Full Name *</label><br>
+           <input id="name" name="name" type="text" required></p>
+
+        <p><label for="email">Email *</label><br>
+           <input id="email" name="email" type="email" required></p>
+
+        <p><label for="project">Project *</label><br>
+          <select id="project" name="project" required>
+            <option value="">Select one</option>
+            <option>Fossil Haven Wellness Spa</option>
+            <option>Hammerstrom Residence</option>
+            <option>Two-Story House (SketchUp)</option>
+            <option>Moodboards</option>
+            <option>Business Cards</option>
+            <option>Other</option>
+          </select>
+        </p>
+
+        <p><label for="message">Message *</label><br>
+           <textarea id="message" name="message" rows="6" required></textarea></p>
+
+        <p><button type="submit" class="btn-ghost">Send</button></p>
+      </form>
+    </section>
+  </aside>
+
+  <div class="clear"></div>
+</div>
+
+<footer class="container">
+  <p>© 2025 Jovana Duric · <a href="https://app.joinhandshake.com/profiles/5s6gmp" target="_blank" rel="noopener">Handshake</a></p>
+</footer>
+
 </body>
 </html>
